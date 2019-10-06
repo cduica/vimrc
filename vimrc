@@ -22,6 +22,8 @@ set hlsearch
 set hidden
 " Set the working directory to wherever the open file lives
 set autochdir
+" set escape key timeout length
+:set ttimeoutlen=100
 " filenames like *.xml, *.html, *.xhtml, ...
 " These are the file extensions where this plugin is enabled.
 let g:closetag_filenames = '*.html,*.xhtml,*.phtml,*.js'
